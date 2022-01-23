@@ -25,7 +25,7 @@ router.get("/api/popular/:type", async (req, res) => {
     });
     res.send(arr);
   } catch (err) {
-    res.status(500).send();
+    res.status(500).send(err.message);
   }
 });
 
@@ -141,7 +141,7 @@ router.get("/api/media", async (req, res) => {
     const main_obj = await Media.findById(MDB_ID);
     res.send(main_obj);
   } catch (err) {
-    res.status(500).send();
+    res.status(500).send(err.message);
   }
 });
 
