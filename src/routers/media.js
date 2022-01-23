@@ -1,5 +1,5 @@
 const express = require("express");
-const router = express.Router();
+require("dotenv").config();
 const Media = require("../models/media");
 const {
   getPopularMediaFromAPI,
@@ -12,7 +12,10 @@ const {
   getTrailerURLFromAPI,
 } = require("../helpers/helpers");
 
-const MDB_ID = "61ed596e6a1013e8f4b2e726";
+const router = express.Router();
+
+// const MDB_ID = "61ed596e6a1013e8f4b2e726";
+const MDB_ID = process.env.MONGODB_MAIN_OBJ_ID;
 
 router.get("/api/popular/:type", async (req, res) => {
   const arr = await getPopularMediaFromAPI(req.params.type);

@@ -1,17 +1,29 @@
 const axios = require("axios");
+require("dotenv").config();
 
-const API_KEY = "5143d77625b31a41e3b4f3b08225f48f";
-const API_KEY_PART = `?api_key=${API_KEY}`;
-const YT_API_KEY = "AIzaSyChVZlGAgi-UtVtxCOhtj6aQIPPDSk2uB8";
-const BASE_URL = "https://api.themoviedb.org/3";
-const BASE_IMG_URL = "https://image.tmdb.org/t/p/w500";
-const BASE_YT_URL = "https://www.youtube.com/watch?v=";
-const BASE_YT_API_URL =
-  "https://youtube.googleapis.com/youtube/v3/videos?part=id&id=";
-const ANONYMOUS_PROFILE_PIC =
-  "https://t3.ftcdn.net/jpg/00/57/04/58/360_F_57045887_HHJml6DJVxNBMqMeDqVJ0ZQDnotp5rGD.jpg";
-const ANONYMOUS_MOVIE_PIC =
-  "https://d32qys9a6wm9no.cloudfront.net/images/movies/poster/500x735.png";
+// const API_KEY = "5143d77625b31a41e3b4f3b08225f48f";
+// const API_KEY_PART = `?api_key=${API_KEY}`;
+// const YT_API_KEY = "AIzaSyChVZlGAgi-UtVtxCOhtj6aQIPPDSk2uB8";
+// const BASE_URL = "https://api.themoviedb.org/3";
+// const BASE_IMG_URL = "https://image.tmdb.org/t/p/w500";
+// const BASE_YT_URL = "https://www.youtube.com/watch?v=";
+// const BASE_YT_API_URL =
+//   "https://youtube.googleapis.com/youtube/v3/videos?part=id&id=";
+// const ANONYMOUS_PROFILE_PIC =
+//   "https://t3.ftcdn.net/jpg/00/57/04/58/360_F_57045887_HHJml6DJVxNBMqMeDqVJ0ZQDnotp5rGD.jpg";
+// const ANONYMOUS_MOVIE_PIC =
+//   "https://d32qys9a6wm9no.cloudfront.net/images/movies/poster/500x735.png";
+// const DEFAULT_PAGE = 1;
+
+const API_KEY = process.env.TMDB_API_KEY;
+const API_KEY_PART = process.env.TMDB_API_KEY_PART;
+const YT_API_KEY = process.env.YT_API_KEY;
+const BASE_URL = process.env.TMDB_API_BASE_URL;
+const BASE_IMG_URL = process.env.TMDB_API_BASE_IMG_URL;
+const BASE_YT_URL = process.env.BASE_YT_URL;
+const BASE_YT_API_URL = process.env.BASE_YT_API_URL;
+const ANONYMOUS_PROFILE_PIC = process.env.ANONYMOUS_PROFILE_PIC_URL;
+const ANONYMOUS_MOVIE_PIC = process.env.ANONYMOUS_MOVIE_PIC_URL;
 const DEFAULT_PAGE = 1;
 
 const genres = [
