@@ -14,7 +14,6 @@ const {
 
 const router = express.Router();
 
-// const MDB_ID = "61ed596e6a1013e8f4b2e726";
 const MDB_ID = process.env.MONGODB_MAIN_OBJ_ID;
 
 router.get("/api/popular/:type", async (req, res) => {
@@ -28,7 +27,7 @@ router.get("/api/popular/:type", async (req, res) => {
     });
     res.send(arr);
   } catch (err) {
-    res.status(500).send(err.message);
+    res.status(500).send();
   }
 });
 
@@ -144,7 +143,7 @@ router.get("/api/media", async (req, res) => {
     const main_obj = await Media.findById(MDB_ID);
     res.send(main_obj);
   } catch (err) {
-    res.status(500).send(err.message);
+    res.status(500).send();
   }
 });
 
