@@ -21,10 +21,15 @@ A fully-responsive movie app which allows users to search for their favorite mov
 
 # Technologies 👨‍💻
 
+![HTML Icon](https://i.ibb.co/9tyHGr7/html-logo.png, "HTML")
+![CSS Icon](https://i.ibb.co/b3QNSgX/css-logo.png, "CSS")
+![SASS Icon](https://i.ibb.co/2M5yfGb/sass-logo.png, "SASS")
+![JavaScript Icon](https://i.ibb.co/L5RS8g1/Group-11.png, "JavaScript")
 ![React Icon](https://i.ibb.co/BBFKyz9/Group-9.png, "React")
 ![Nodejs Icon](https://i.ibb.co/1KjfZ9L/Group-8.png, "Nodejs")
-![JavaScript Icon](https://i.ibb.co/L5RS8g1/Group-11.png, "JavaScript")
+![Express Icon](https://i.ibb.co/4J71gTL/express-logo.png, "Express")
 ![MongoDB Icon](https://i.ibb.co/KXG94Kc/Group-10.png, "MongoDB")
+![JWT Icon](https://i.ibb.co/qRrfYPS/jwt-logo.png, "JWT")
 
 <br />
 
