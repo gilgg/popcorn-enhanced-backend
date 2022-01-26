@@ -29,7 +29,6 @@ A fully-responsive movie app which allows users to search for their favorite mov
 ![Nodejs Icon](https://i.ibb.co/1KjfZ9L/Group-8.png, "Nodejs")
 ![Express Icon](https://i.ibb.co/4J71gTL/express-logo.png, "Express")
 ![MongoDB Icon](https://i.ibb.co/KXG94Kc/Group-10.png, "MongoDB")
-![JWT Icon](https://i.ibb.co/qRrfYPS/jwt-logo.png, "JWT")
 
 <br />
 
