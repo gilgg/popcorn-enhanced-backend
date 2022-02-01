@@ -34,19 +34,19 @@ A fully-responsive movie app which allows users to search for their favorite mov
 
 # Screenshots 🎮
 
-![Popcorn Main](https://i.ibb.co/KXH2NcS/popcorn-1.png)
+![Popcorn Main](https://i.ibb.co/jGx5wgy/popcorn-1.png)
 
 <br />
 
-![Popcorn Page](https://i.ibb.co/yFbV54K/popcorn-2.png)
+![Popcorn Page](https://i.ibb.co/yBWn1d3/popcorn-2.png)
 
 <br />
 
-![Popcorn May Also Like](https://i.ibb.co/54WsnsR/popcorn-3.png)
+![Popcorn May Also Like](https://i.ibb.co/yPS1NFn/popcorn-3.png)
 
 <br />
 
-![Popcorn Trailer](https://i.ibb.co/58Hg3hQ/popcorn-4.png)
+![Popcorn Trailer](https://i.ibb.co/KLBqX88/popcorn-4.png)
 
 <br />
 
